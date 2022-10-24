@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-bg-color: #424756;
+    --black: #000;
+    --white: #fff;
+    --primary-color: #000;
+    --secondary-color: #e1d798;
+    --primary-border-color: #675645;
+    --grid-gutter: 24px;
+    --card-gutter: 42px;
+}
+
+body {
+    background-color: var(--primary-bg-color);
+    color: #ffffff;
+}
+
+.personal-units-losses {
+    border-bottom: 3px solid var(--primary-border-color);
+    vertical-align: top;
+}
+
+.personal-units-losses-progress {
+    line-height: 29px;
+    color: #a3b39f;
+    vertical-align: top;
+}
